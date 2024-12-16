@@ -10,7 +10,7 @@ void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Te
 
     // Load ball and bar textures
     ballTexture.loadFromFile("./assets/graphics/sprites/ball.png");
-    barTexture.loadFromFile("./assets/graphics/sprites/bar.png");
+    barTexture.loadFromFile("./assets/graphics/sprites/bar.png");   
 
     // Load background textures
     for (int i = 0; i < BACKGROUNDS; i++) {
