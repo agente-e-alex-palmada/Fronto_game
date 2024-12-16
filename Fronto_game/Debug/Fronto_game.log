@@ -1,6 +1,6 @@
 ﻿  init.cpp
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(40,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(40,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(41,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(41,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(49,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(49,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(50,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(50,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
   Fronto_game.vcxproj -> E:\AluCiclesGS1\APB\No_git\Fronto_game\Debug\Fronto_game.exe
