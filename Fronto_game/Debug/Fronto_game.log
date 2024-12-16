@@ -1,0 +1,4 @@
+﻿  init.cpp
+E:\AluCiclesGS1\APB\PROG\RA3\Fronto_game\Fronto_game\init.cpp(35,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\APB\PROG\RA3\Fronto_game\Fronto_game\init.cpp(35,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Fronto_game.vcxproj -> E:\AluCiclesGS1\APB\PROG\RA3\Fronto_game\Debug\Fronto_game.exe
