@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\draw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\ourheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\ourheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -25,10 +29,6 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "draw.cpp",
@@ -36,9 +36,23 @@
               "RelativeDocumentMoniker": "Fronto_game\\draw.cpp",
               "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\draw.cpp",
               "RelativeToolTip": "Fronto_game\\draw.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-13T11:31:03.008Z"
+              "WhenOpened": "2024-12-16T09:45:27.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ourheader.h",
+              "DocumentMoniker": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\ourheader.h",
+              "RelativeDocumentMoniker": "Fronto_game\\ourheader.h",
+              "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\ourheader.h",
+              "RelativeToolTip": "Fronto_game\\ourheader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-16T09:21:53.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,22 +62,23 @@
               "RelativeDocumentMoniker": "Fronto_game\\init.cpp",
               "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\init.cpp",
               "RelativeToolTip": "Fronto_game\\init.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAnwCgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-13T11:31:00.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\main.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\main.cpp",
               "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\main.cpp",
               "RelativeToolTip": "Fronto_game\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-13T11:25:43.133Z"
+              "WhenOpened": "2024-12-13T11:25:43.133Z",
+              "EditorCaption": ""
             }
           ]
         }

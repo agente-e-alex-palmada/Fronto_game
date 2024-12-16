@@ -2,7 +2,7 @@
 #include "ourheader.h"
 
 // Main function
-void main(){
+void main() {
 	int score, randomGenerator, xblock, yblock;
 	float barSpeed, bar_speed;
 	VideoMode vm(XMAX, YMAX);
@@ -12,12 +12,13 @@ void main(){
 	Event event;
 	srand(static_cast<unsigned int>(time(0)));
 	init(blockTextures, ballTexture, barTexture, backgroundTexture, arrowTexture, block, ball, bar, backgrounds, arrow, randomGenerator, xblock, yblock);
-	while (window.isOpen())
-	{
-		if (Keyboard::isKeyPressed(Keyboard::Escape))
-		{
+	while (window.isOpen()) {
+		while (window.pollEvent(event)) {
+			if (Keyboard::isKeyPressed(Keyboard::Escape))
+			{
 				window.close();
+			}
+			draw(window, block, ball, bar, backgrounds, arrow);
 		}
-		draw(window, block, ball, bar, backgrounds, arrow);
 	}
 }

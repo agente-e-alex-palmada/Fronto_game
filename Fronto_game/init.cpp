@@ -30,8 +30,14 @@ void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Te
     for (int i = 0; i < BLOCKS; i++) {
         randomGenerator = rand() % BLOCK_SPRITES;
         block[i].setTexture(blockTextures[randomGenerator]);
+    }
+
+    // Set possition to blocks (Needs to remade)
+    for (int i = 0; i < BLOCKS; i++)
+    {
         xblock = (i % (XMAX / 128)) * 128;
         yblock = 0 + (i / (XMAX / 128)) * 128;
+        block[i].setScale(0.7, 0.7);
         block[i].setPosition(xblock, yblock);
     }
 
