@@ -9,7 +9,7 @@ int main() {
 	VideoMode vm(XMAX, YMAX);
 	RenderWindow window(vm, "Fronto game", Style::Titlebar);
 	Texture blockTextures[BLOCKS], ballTexture, barTexture, backgroundTexture[BACKGROUNDS], arrowTexture[ARROWS];
-	Sprite block[BLOCKS], ball, bar, arrow, backgrounds[BACKGROUNDS];
+	Sprite block[BLOCKS], ball, bar, arrow[ARROWS], backgrounds[BACKGROUNDS];
 	Event event;
 	srand(static_cast<unsigned int>(time(0)));
 	init(blockTextures, ballTexture, barTexture, backgroundTexture, arrowTexture, block, ball, bar, backgrounds, arrow, randomGenerator, xblock, yblock, arrowPath, backgroundPath, blockPath);
