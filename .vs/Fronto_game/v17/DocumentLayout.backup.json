@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\",
+  "WorkspaceRootPath": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\draw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\draw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\draw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\ourheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\ourheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{40699619-617E-4E7D-AA3E-6450E838C539}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\ourheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -26,15 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ourheader.h",
-              "DocumentMoniker": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\ourheader.h",
+              "DocumentMoniker": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\ourheader.h",
               "RelativeDocumentMoniker": "Fronto_game\\ourheader.h",
-              "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\ourheader.h",
+              "ToolTip": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\ourheader.h",
               "RelativeToolTip": "Fronto_game\\ourheader.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -42,12 +42,16 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "draw.cpp",
-              "DocumentMoniker": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\draw.cpp",
+              "DocumentMoniker": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\draw.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\draw.cpp",
-              "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\draw.cpp",
+              "ToolTip": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\draw.cpp",
               "RelativeToolTip": "Fronto_game\\draw.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -57,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\main.cpp",
+              "DocumentMoniker": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\main.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\main.cpp",
-              "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\main.cpp",
+              "ToolTip": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\main.cpp",
               "RelativeToolTip": "Fronto_game\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-16T12:20:38.052Z",
               "EditorCaption": ""
@@ -70,9 +74,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "init.cpp",
-              "DocumentMoniker": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\init.cpp",
+              "DocumentMoniker": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\init.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\init.cpp",
-              "ToolTip": "E:\\AluCiclesGS1\\APB\\No_git\\Fronto_game\\Fronto_game\\init.cpp",
+              "ToolTip": "E:\\AluCiclesGS1\\fronto_game\\Fronto_game\\Fronto_game\\init.cpp",
               "RelativeToolTip": "Fronto_game\\init.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
