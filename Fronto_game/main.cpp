@@ -23,5 +23,5 @@ int main() {
 			draw(window, block, ball, bar, backgrounds, arrow, randomGenerator);
 		}
 	}
-	return 0;
+	return 0;-
 }
