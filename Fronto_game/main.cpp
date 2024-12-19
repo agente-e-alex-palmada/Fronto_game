@@ -5,6 +5,7 @@
 int main() {
 	int score, randomGenerator = 0, xblock, yblock;
 	float barSpeed, bar_speed;
+	bool validinput;
 	string arrowPath, backgroundPath, blockPath;
 	VideoMode vm(XMAX, YMAX);
 	RenderWindow window(vm, "Fronto game", Style::Titlebar);
