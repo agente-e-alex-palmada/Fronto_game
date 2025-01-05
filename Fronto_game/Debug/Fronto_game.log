@@ -1,20 +1,20 @@
-﻿  barMovement.cpp
+﻿  ballMovement.cpp
+  barMovement.cpp
   draw.cpp
   init.cpp
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(55,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(55,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(56,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(56,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(60,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(60,18): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(62,33): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\init.cpp(63,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(55,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(55,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(56,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(56,30): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(60,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(60,18): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\init.cpp(63,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
   main.cpp
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\main.cpp(5,6): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\main.cpp(9,6): warning C4101: 'score': variable local sin referencia
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\main.cpp(11,7): warning C4101: 'validinput': variable local sin referencia
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\main.cpp(10,18): warning C4101: 'bar_speed': variable local sin referencia
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\main.cpp(10,8): warning C4101: 'barSpeed': variable local sin referencia
-E:\AluCiclesGS1\APB\No_git\Fronto_game\Fronto_game\main.cpp(9,50): warning C4101: 'lives': variable local sin referencia
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\main.cpp(6,6): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\main.cpp(10,6): warning C4101: 'score': variable local sin referencia
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\main.cpp(12,7): warning C4101: 'validinput': variable local sin referencia
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\main.cpp(11,18): warning C4101: 'bar_speed': variable local sin referencia
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\main.cpp(11,8): warning C4101: 'barSpeed': variable local sin referencia
+C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Fronto_game\main.cpp(10,50): warning C4101: 'lives': variable local sin referencia
   Generando código...
-  Fronto_game.vcxproj -> E:\AluCiclesGS1\APB\No_git\Fronto_game\Debug\Fronto_game.exe
+  Fronto_game.vcxproj -> C:\Users\sergi\OneDrive\Desktop\CPP\Fronto_game\Debug\Fronto_game.exe

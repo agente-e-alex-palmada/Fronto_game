@@ -1,8 +1,8 @@
 #include "ourheader.h"
 
 // Initialization
-void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Texture backgroundTexture[], Texture arrowTexture[], Sprite block[], Sprite& ball, Sprite& bar, Sprite backgrounds[], Sprite arrow[], int randomGenerator, int& xblock, int& yblock, string& arrowPath, string& backgroundPath, string& blockPath, SoundBuffer& selectionBuff, SoundBuffer& colisionBuff, SoundBuffer& blockBuff, Sound& selectionSound, Sound& colisionSound, Sound& blockSound, Music& menuMusic, Music& life1music, Music& life2music, Music& life3music, float& deltaTime, Clock& clock){
-// Load textures
+void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Texture backgroundTexture[], Texture arrowTexture[], Sprite block[], Sprite& ball, Sprite& bar, Sprite backgrounds[], Sprite arrow[], int randomGenerator, int& xblock, int& yblock, string& arrowPath, string& backgroundPath, string& blockPath, SoundBuffer& selectionBuff, SoundBuffer& colisionBuff, SoundBuffer& blockBuff, Sound& selectionSound, Sound& colisionSound, Sound& blockSound, Music& menuMusic, Music& life1music, Music& life2music, Music& life3music) {
+    
     // Load block textures into blockTextures array
     for (int i = 0; i < BLOCK_SPRITES; i++) {
         blockPath = "./assets/graphics/sprites/block" + to_string(i) + ".png";
@@ -59,7 +59,7 @@ void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Te
     arrow[1].setPosition(1080, 950);
     bar.setScale(0.7, 0.2);
 
-    ball.setPosition((XMAX / 2) - (268.8 / 2), 900);
+    ball.setPosition((XMAX / 2) - (50 / 2), 900);
     bar.setPosition((XMAX / 2) - (268.8 / 2), 1040);
 
 // Load and set sounds
@@ -96,5 +96,5 @@ void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Te
     if (!life3music.openFromFile("Ruta")) {
         cout << "Can't load the file for life3music\n";
     }
-    deltaTime = clock.restart().asSeconds();
+   
 }
