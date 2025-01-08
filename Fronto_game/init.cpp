@@ -1,7 +1,7 @@
 #include "ourheader.h"
 
 // Initialization
-void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Texture backgroundTexture[], Texture arrowTexture[], Sprite block[], Sprite& ball, Sprite& bar, Sprite backgrounds[], Sprite arrow[], int randomGenerator, int& xblock, int& yblock, string& arrowPath, string& backgroundPath, string& blockPath, SoundBuffer& selectionBuff, SoundBuffer& colisionBuff, SoundBuffer& blockBuff, Sound& selectionSound, Sound& colisionSound, Sound& blockSound, Music& menuMusic, Music& life1music, Music& life2music, Music& life3music, Clock& clock, Time& deltaTime, float& dt, bool& firstInput, float& flickerTime)
+void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Texture backgroundTexture[], Texture arrowTexture[], Sprite block[], Sprite& ball, Sprite& bar, Sprite backgrounds[], Sprite arrow[], int randomGenerator, int& xblock, int& yblock, string& arrowPath, string& backgroundPath, string& blockPath, SoundBuffer& selectionBuff, SoundBuffer& colisionBuff, SoundBuffer& blockBuff, Sound& selectionSound, Sound& colisionSound, Sound& blockSound, Music& menuMusic, Music& life1music, Music& life2music, Music& life3music, Clock& clock, Time& deltaTime, float& dt, bool& firstInput, float& flickerTime, float& ballSpeedY, float& ballSpeedX)
 {
     // Load block textures into blockTextures array
     for (int i = 0; i < BLOCK_SPRITES; i++) {
@@ -99,6 +99,8 @@ void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Te
 
 // Init other variables
     firstInput = false;
+    ballSpeedX = BALL_SPEED;
+    ballSpeedY = -BALL_SPEED; 
     deltaTime = clock.restart();
     dt = deltaTime.asSeconds();
 }

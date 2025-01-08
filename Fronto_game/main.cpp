@@ -9,7 +9,7 @@ void main() {
 	window.setVerticalSyncEnabled(true);
 	window.setFramerateLimit(60);
 	int score, randomGenerator = 0, xblock, yblock, lives;
-	float dt, flickerTime;
+	float dt, flickerTime, ballSpeedY, ballSpeedX;
 	bool firstInput;
 	string arrowPath, backgroundPath, blockPath;
 	Texture blockTextures[BLOCKS], ballTexture, barTexture, backgroundTexture[BACKGROUNDS], arrowTexture[ARROWS];
@@ -19,9 +19,9 @@ void main() {
 	Music menuMusic, life1music, life2music, life3music;
 	Clock clock;
 	Time deltaTime;
-	FloatRect xBorders;
+	FloatRect barBounds, ballBounds;
 	srand(static_cast<unsigned int>(time(0)));
-	init(blockTextures, ballTexture, barTexture, backgroundTexture, arrowTexture, block, ball, bar, backgrounds, arrow, randomGenerator, xblock, yblock, arrowPath, backgroundPath, blockPath, selectionBuff, colisionBuff, blockBuff, selectionSound, colisionSound, blockSound, menuMusic, life1music, life2music, life3music, clock, deltaTime, dt, firstInput, flickerTime);
+	init(blockTextures, ballTexture, barTexture, backgroundTexture, arrowTexture, block, ball, bar, backgrounds, arrow, randomGenerator, xblock, yblock, arrowPath, backgroundPath, blockPath, selectionBuff, colisionBuff, blockBuff, selectionSound, colisionSound, blockSound, menuMusic, life1music, life2music, life3music, clock, deltaTime, dt, firstInput, flickerTime, ballSpeedY, ballSpeedX);
 	randomGenerator = rand() % BACKGROUNDS;
 	while (window.isOpen()) {
 		Event ingame;
@@ -30,8 +30,10 @@ void main() {
 				window.close();
 			}
 		}
-		barMovement(bar, xBorders, dt, firstInput);
-		ballMovement(ball, deltaTime, clock);
+		barMovement(bar, barBounds, dt, firstInput);
+		ballMovement(ball, ballBounds, dt, clock, ballSpeedY, ballSpeedX);
+		barCollisionWithBall(ball, bar, barBounds, ballBounds, ballSpeedX, ballSpeedY, dt);
+
 		draw(window, block, ball, bar, backgrounds, arrow, randomGenerator, firstInput, flickerTime, dt);
 		deltaTime = clock.restart();
 	}
