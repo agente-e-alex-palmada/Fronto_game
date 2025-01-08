@@ -1,8 +1,8 @@
 #include "ourheader.h"
 
 // Initialization
-void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Texture backgroundTexture[], Texture arrowTexture[], Sprite block[], Sprite& ball, Sprite& bar, Sprite backgrounds[], Sprite arrow[], int randomGenerator, int& xblock, int& yblock, string& arrowPath, string& backgroundPath, string& blockPath, SoundBuffer& selectionBuff, SoundBuffer& colisionBuff, SoundBuffer& blockBuff, Sound& selectionSound, Sound& colisionSound, Sound& blockSound, Music& menuMusic, Music& life1music, Music& life2music, Music& life3music) {
-    
+void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Texture backgroundTexture[], Texture arrowTexture[], Sprite block[], Sprite& ball, Sprite& bar, Sprite backgrounds[], Sprite arrow[], int randomGenerator, int& xblock, int& yblock, string& arrowPath, string& backgroundPath, string& blockPath, SoundBuffer& selectionBuff, SoundBuffer& colisionBuff, SoundBuffer& blockBuff, Sound& selectionSound, Sound& colisionSound, Sound& blockSound, Music& menuMusic, Music& life1music, Music& life2music, Music& life3music, Clock& clock, Time& deltaTime, float& dt, bool& firstInput, float& flickerTime)
+{
     // Load block textures into blockTextures array
     for (int i = 0; i < BLOCK_SPRITES; i++) {
         blockPath = "./assets/graphics/sprites/block" + to_string(i) + ".png";
@@ -96,5 +96,9 @@ void init(Texture blockTextures[], Texture& ballTexture, Texture& barTexture, Te
     if (!life3music.openFromFile("Ruta")) {
         cout << "Can't load the file for life3music\n";
     }
-   
+
+// Init other variables
+    firstInput = false;
+    deltaTime = clock.restart();
+    dt = deltaTime.asSeconds();
 }
