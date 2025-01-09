@@ -53,9 +53,3 @@ Mostrar la puntuación actual en la pantalla de forma visible.
 
 **Reacción con el entorno**  
 Hacer que los objetos dentro del juego (bola, barra, bloques) reaccionen de manera realista al entorno (rebotes, desaparición de bloques, etc.).
-
-**Accesibilidad**  
-Implementar opciones de accesibilidad como:
-- Contrastar colores de fondo y texto.
-- Ajustar el tamaño de los elementos interactivos.
-- Hacer el juego jugable para personas con discapacidades visuales o auditivas, si es posible.
