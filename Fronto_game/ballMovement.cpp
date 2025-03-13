@@ -29,8 +29,8 @@ void ballMovement(Sprite& ball, FloatRect& ballBounds, float dt, Clock clock, fl
             // We need here a function that handles restart and death       
         }
     }
-    if (ballSpeedX >= 230.0f) {
-        ballSpeedX = 230.0f;
+    if (ballSpeedX >= 100.0f) {
+        ballSpeedX = 100.0f;
     }
     if (ballSpeedY >= 230.0f) {
         ballSpeedY = 230.0f;
