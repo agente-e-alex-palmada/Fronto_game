@@ -18,3 +18,4 @@ void draw(RenderWindow& window, Sprite block[], Sprite& ball, Sprite& bar, Sprit
 void barMovement(Sprite& bar, FloatRect& barBounds, float dt, bool& firstInput);
 void ballMovement(Sprite& ball, FloatRect& ballBounds, float dt, Clock clock, float& ballSpeedX, float& ballSpeedY);
 void barCollisionWithBall(Sprite& ball, Sprite& bar, FloatRect& barBounds, FloatRect& ballBounds, float& ballSpeedX, float& ballSpeedY, float dt);
+void ballCollisionWithBlocks(Sprite& ball, FloatRect& ballBounds, Sprite block[], FloatRect blockBounds[], int& blockCount, float& ballSpeedX, float& ballSpeedY);

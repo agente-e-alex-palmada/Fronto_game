@@ -132,6 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ballCollisionWithBlock.cpp" />
     <ClCompile Include="ballMovement.cpp" />
     <ClCompile Include="barCollisionWithBall.cpp" />
     <ClCompile Include="barMovement.cpp" />
